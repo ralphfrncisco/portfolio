@@ -92,4 +92,9 @@ header .container ul, #download-cv,#tech-stack, footer
     {
         margin-top: 1%;
     }
+    #download-cv
+    {
+        padding-left: 8px;
+    }
+
 }
