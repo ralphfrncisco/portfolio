@@ -1,0 +1,95 @@
+#name-header
+{
+    font-family: "Crimson Pro";
+}
+
+header .container ul, #download-cv,#tech-stack, footer
+{
+    font-family: "Poppins";
+}
+
+#greeting
+{
+    font-family: "Inter";
+    font-weight: 50;
+}
+
+#my-name
+{
+    font-family: "Poppins";
+}
+
+
+#navbar
+{
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+#navbar.scrolled {
+    background: linear-gradient(to bottom left, #1E1E1E, #121212);
+    border-bottom: 0.45px solid #404040!important;
+    backdrop-filter: blur(10px)!important;
+    -webkit-backdrop-filter: blur(20px)!important; /* for Safari */
+}
+
+@media (max-width: 1300px)
+{
+    #intro-sect
+    {
+        padding: 0% 10%;
+    }
+}
+@media (max-width: 1280px)
+{
+    #intro-sect
+    {
+        padding: 0% 0%;
+    }
+}
+@media (max-width: 1060px)
+{
+    #intro-sect
+    {
+        padding: 0% 5%;
+    }
+}
+@media (max-width: 1025px)
+{
+    #left-side
+    {
+        padding-left: 5%;
+    }
+    #intro-sect
+    {
+        padding: 0% 0%;
+    }
+}
+@media (max-width: 768px)
+{
+    #dl-icon
+    {
+        display: block;
+    }
+    #dl-text
+    {
+        display: none;
+    }
+    
+}
+@media (max-width: 769px)
+{
+    #download-cv
+    {
+        padding-left: 10.5px;
+    }
+}
+@media (max-width: 641px)
+{
+    #profile-image
+    {
+        margin-top: 1%;
+    }
+}
