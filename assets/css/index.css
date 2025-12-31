@@ -34,7 +34,7 @@ header .container ul, #download-cv,#tech-stack, footer
     backdrop-filter: blur(10px)!important;
     -webkit-backdrop-filter: blur(20px)!important; /* for Safari */
 }
-#the-philippines:hover h3
+#the-philippines:hover h3, #SmartLoan:hover h3
 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
