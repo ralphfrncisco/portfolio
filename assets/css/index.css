@@ -87,7 +87,7 @@ header .container ul, #download-cv,#tech-stack, footer
 {
     #download-cv
     {
-        padding-left: 10.5px;
+        padding-left: 10px;
     }
 }
 @media (max-width: 641px)
@@ -102,4 +102,30 @@ header .container ul, #download-cv,#tech-stack, footer
     }
 
 }
+#intro-sect-mobile
+{
+    display: none;
+}
 
+@media (max-width: 426px)
+{
+    #intro-sect
+    {
+        display: none;
+    }
+    #intro-sect-mobile
+    {
+        display: flex;
+    }
+    #navbar
+    {
+        background: linear-gradient(to bottom left, #1E1E1E, #121212);
+        border-bottom: 0.45px solid #404040!important;
+        backdrop-filter: blur(10px)!important;
+        -webkit-backdrop-filter: blur(20px)!important;
+    }
+     #download-cv
+    {
+        padding-right: 10px;
+    }
+}
