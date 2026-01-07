@@ -10,7 +10,7 @@ function Certifications({darkMode}) {
         image: "/src/assets/images/threat-landscape.png"
     },
     {
-        title: "Getting Started in Cybersecurity 2.0", // Repeated for your example
+        title: "Getting Started in Cybersecurity 2.0",
         issuer: "Fortinet",
         date: "Dec 10, 2023",
         image: "/src/assets/images/cybersecurity.png"

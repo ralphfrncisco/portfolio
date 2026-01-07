@@ -20,31 +20,28 @@ function About({ darkMode}) {
                     darkMode ? 'text-white/80' : 'text-gray-800 font-normal'
                 }`}>
                     <p>
-                    I’m a software developer with a strong focus on building responsive and 
-                    user-friendly web applications. I work mainly with HTML, CSS, JavaScript, 
-                    PHP, and MySQL, and I enjoy turning ideas into working systems that solve 
+                    I'm a software developer with a strong focus on building responsive and 
+                    user-friendly web applications. I work mainly with <span className = "font-bold">HTML</span>, <span className = "font-bold">CSS</span>, <span className = "font-bold">JavaScript</span>, 
+                    <span className = "font-bold"> PHP</span>, and <span className = "font-bold">MySQL</span>, and I enjoy turning ideas into working systems that solve 
                     real problems.
                     </p>
 
                     <p>
-                    I’ve built projects like web-based dashboards, loan management systems, and 
-                    account management platforms that manage real-world workflows. These workflows 
-                    include user registration, approvals, data processing, and reporting. <br></br>I focus on layout,
-                    responsiveness, and usability while ensuring the code remains clean and practical.
+                    I've built a web-based loan management system that eliminates redundant paper-based loan inquiries by enabling digital loan balance monitoring and online loan application and approval. The system reduces manual transactions, saves time, and streamlines the loan process for both cooperative officials and members through a more efficient digital workflow.
                     </p>
 
                     <p>
-                    I’ve worked on systems that help organizations and small businesses streamline 
+                    Lately, I'm expanding my skills by learning modern web development like <span className = "font-bold">React</span>, <span className = "font-bold">Tailwind CSS</span>,
+                    and exploring how emerging technologies such as automation and AI-assisted 
+                    development.
+                    </p>
+                    
+                    <p>
+                    I am currently working on systems that helps small businesses streamline 
                     their processes by moving manual tasks into efficient digital solutions. 
-                    These projects helped me understand how software can directly support 
-                    operations and decision-making.
                     </p>
 
-                    <p>
-                    Currently, I’m expanding my skills by learning modern tools like React 
-                    and exploring how emerging technologies—such as automation and AI-assisted 
-                    development—can improve productivity and enhance modern web applications.
-                    </p>
+                    
                 </div>
             </div>
         </div>
