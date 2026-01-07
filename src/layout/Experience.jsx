@@ -16,7 +16,7 @@ function Experience({ darkMode }) {
         darkMode ? 'bg-[#121212] border-[#222] text-white' : 'bg-white border-gray-200 text-gray-900 shadow-sm'
       }`}>
         <div className="flex items-center gap-2 mb-6">
-            <Building size={16} className = "text-white/80"/>
+            <Building size={16} className = {`${darkMode ? 'text-white/80' : 'text-gray-800'}`}/>
             <h2 className="text-xl font-bold tracking-tight">Experience</h2>
         </div>
 

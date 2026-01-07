@@ -4,6 +4,8 @@ import './App.css';
 import Header from './layout/Header.jsx';
 import About from './layout/About.jsx';
 import Experience from './layout/Experience.jsx';
+import TechStack from './layout/tech-stack.jsx';
+import Certifications from './layout/Certifications.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -26,6 +28,10 @@ function App() {
             </div>
           </section>
           
+          <section className = "grid grid-cols-1 md:grid-cols-2">
+            <TechStack darkMode={darkMode} />
+            <Certifications darkMode={darkMode} />
+          </section>
         </main>
       </div>
     </div>
