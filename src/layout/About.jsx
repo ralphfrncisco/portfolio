@@ -2,7 +2,7 @@ import React from 'react'
 
 function About({ darkMode}) {
   return (
-    <section>
+    <section className="p-2">
 
         <div className={`flex items-center border rounded-lg p-4 transition-colors duration-300 ${
             darkMode 

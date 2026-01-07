@@ -13,16 +13,16 @@ function Header({ darkMode, setDarkMode }) {
 
     <section className="p-2">
 
-        <div className={`flex items-center gap-4 md:gap-6 border rounded-lg transition-colors duration-300 mt-4 mb-4 ${
+        <div className={`flex flex-col md:flex-row items-center gap-4 md:gap-6 border rounded-lg transition-colors duration-300 mt-4 mb-4 ${
         darkMode 
           ? 'border-none text-white' 
           : 'border-none text-gray-900'
       }`}>
             
-            <img src = "/src/assets/images/ralph.png" alt="Logo" className="h-40 w-40 rounded-md" />
+            <img src = "/src/assets/images/ralph.png" alt="Logo" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
 
-            <div className="flex-1 min-w-0">
-                <div className="flex items-center justify-between gap-2">
+            <div className="flex-1 min-w-0 ml-1 md:ml-0">
+                <div className="flex items-center justify-between gap-2 ">
                     
                     <div className="w-full flex items-center gap-3 truncate">
                         <h1 className="text-lg md:text-2xl font-bold truncate">Ralph Angelo Francisco</h1>
@@ -53,45 +53,37 @@ function Header({ darkMode, setDarkMode }) {
                     <p className="text-[10px] md:text-base font-medium">
                         Software Developer / Front-End Developer
                     </p>
-                    
-
                 </div>
 
                 
-                <div className="space-y-2 mt-3 md:mt-4">
-                    <div className="flex gap-2">
-                        <a href="https://github.com/ralphfrncisco" 
-                        target="_blank" 
-                        className="inline-flex h-7 md:h-8 
-                        items-center rounded-lg bg-black px-2.5 md:px-4 
-                        text-[8px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap shadow-xl hover:translate-y-[-1px] transition-transform">
-                            <Github size = {16} /><span>GitHub</span>
-                        </a>
+                <div className="flex flex-wrap items-center gap-2 mt-3 md:mt-4">
+                    <a href="https://github.com/ralphfrncisco" 
+                    target="_blank" 
+                    className="inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap shadow-xl hover:translate-y-[-1px] transition-transform">
+                        <Github size={16} /><span>GitHub</span>
+                    </a>
 
-                        <a href="https://www.linkedin.com/in/ralphfrancisco/" 
-                            target="_blank"  
-                            className="inline-flex h-7 md:h-8 
-                            items-center rounded-lg bg-blue-600 px-2.5 md:px-4 
-                            text-[8px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-lg text-white hover:translate-y-[-1px] transition-transform">
-                                <Linkedin size = {16} /><span className = "relative top-[1px]">LinkedIn</span>
-                        </a>
+                    <a href="https://www.linkedin.com/in/ralphfrancisco/" 
+                        target="_blank"  
+                        className="inline-flex h-7 md:h-8 items-center rounded-lg bg-blue-600 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-lg text-white hover:translate-y-[-1px] transition-transform">
+                            <Linkedin size={16} /><span className="relative top-[0.5px]">LinkedIn</span>
+                    </a>
 
-                        <button 
-                            onClick={handleEmailClick} 
-                            className={`inline-flex h-7 md:h-8 items-center rounded-lg border border-gray-500/20 px-2.5 md:px-4 
-                            text-[8px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-sm
-                            hover:translate-y-[-1px] transition-all cursor-pointer ${
-                            darkMode ? 'text-white' : 'text-black'
-                            }`}
-                        >
-                            <Mail size = {14} />
-                            <span className = "relative top-[1px]">Send Email</span>
-                        </button>
-                        
-                        <div className='inline-flex ml-3 gap-2'>
-                            <Phone className = "w-4 h-4 relative top-[9px]"/> <span className = "relative top-[9px] font-light text-xs">(+63) 9611091804</span>
-                        </div>
-                        
+                    <button 
+                        onClick={handleEmailClick} 
+                        className={`inline-flex h-7 md:h-8 items-center rounded-lg border border-gray-500/20 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-sm hover:translate-y-[-1px] transition-all cursor-pointer ${
+                        darkMode ? 'text-white' : 'text-black'
+                        }`}
+                    >
+                        <Mail size={14} />
+                        <span className="relative top-[0.5px]">Send Email</span>
+                    </button>
+                    
+                    <div className={`flex items-center gap-2 py-1 pl-1 md:pl-0 ${darkMode ? 'text-white/70' : 'text-gray-600'}`}>
+                        <Phone size={14} className="shrink-0" /> 
+                        <span className="font-light text-[10px] md:text-xs whitespace-nowrap">
+                          (+63) 9611091804
+                        </span>
                     </div>
                 </div>
             </div>

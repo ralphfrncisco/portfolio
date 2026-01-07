@@ -16,7 +16,7 @@ function App() {
         </section>
 
         <main>
-          <section className = "grid grid-cols-1 md:grid-cols-3 gap-2">
+          <section className = "grid grid-cols-1 md:grid-cols-3">
             <div className="col-span-1 md:col-span-2">
               <About darkMode={darkMode} />
             </div>
