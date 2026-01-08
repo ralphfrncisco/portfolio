@@ -35,7 +35,11 @@ function Header({ darkMode, setDarkMode }) {
 
                     <div className="flex items-center gap-3">
                         <a href = "/src/assets/files/resume.pdf" target="_blank" id = "download-cv" 
-                        className = "inline-flex h-7 md:h-9 items-center rounded-lg bg-black px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap shadow-xl hover:translate-y-[-1px] transition-transform"> 
+                        className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
+                        text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap 
+                        transition-all hover:translate-y-[-1px] shadow-xs ${
+                            darkMode ? 'shadow-gray-500/10' : 'shadow-black/20'
+                        }`}>
                             <span id = "dl-text"> Download CV</span>
                         </a>
 
@@ -51,30 +55,35 @@ function Header({ darkMode, setDarkMode }) {
 
                 </div>
 
-                
-                <p className="text-xs md:text-sm mt-1 flex items-center gap-1">
-                    <MapPin size={15} /><span className="truncate font-normal">Valenzuela City, Philippines</span>
-                </p>
-
-                
-                <div className="flex items-center justify-between mt-2 md:mt-3">
+                <div className="flex items-center justify-between mt-2 md:mt-1">
                     <p className="text-[10px] md:text-base font-medium">
                         Software Developer / Front-End Developer
                     </p>
                 </div>
+                
+                <p className="text-xs md:text-sm mt-2 flex items-center gap-1">
+                    <MapPin size={15} /><span className="truncate font-normal">Valenzuela City, Philippines</span>
+                </p>
+
+                
+                
 
                 
                 <div className="flex flex-wrap items-center gap-2 mt-3 md:mt-4">
                     <a href="https://github.com/ralphfrncisco" 
-                    target="_blank" 
-                    className="inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap shadow-xl hover:translate-y-[-1px] transition-transform">
-                        <Github size={16} /><span>GitHub</span>
+                        target="_blank" 
+                        className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
+                        text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap 
+                        transition-all hover:translate-y-[-1px] shadow-xs ${
+                            darkMode ? 'shadow-gray-500/10' : 'shadow-black/20'
+                        }`}>
+                            <Github size={16} /><span>GitHub</span>
                     </a>
 
                     <a href="https://www.linkedin.com/in/ralphfrancisco/" 
                         target="_blank"  
-                        className="inline-flex h-7 md:h-8 items-center rounded-lg bg-blue-600 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-lg text-white hover:translate-y-[-1px] transition-transform">
-                            <Linkedin size={16} /><span className="relative top-[0.5px]">LinkedIn</span>
+                        className="inline-flex h-7 md:h-8 items-center rounded-lg bg-blue-600 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-sm text-white hover:translate-y-[-1px] transition-transform">
+                            <i className="fa-brands fa-linkedin relative top-[0.3px] text-[13pt]"></i><span className="relative top-[0.5px]">LinkedIn</span>
                     </a>
 
                     <button 

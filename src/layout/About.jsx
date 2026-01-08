@@ -22,7 +22,7 @@ function About({ darkMode}) {
                     <p>
                     I'm a software developer with a strong focus on building responsive and 
                     user-friendly web applications. I work mainly with <span className = "font-bold">HTML</span>, <span className = "font-bold">CSS</span>, <span className = "font-bold">JavaScript</span>, 
-                    <span className = "font-bold"> PHP</span>, and <span className = "font-bold">MySQL</span>, and I enjoy turning ideas into working systems that solve 
+                    <span className = "font-bold"> PHP</span>, and <span className = "font-bold">MySQL</span>. I enjoy turning ideas into working systems that solve 
                     real problems.
                     </p>
 
