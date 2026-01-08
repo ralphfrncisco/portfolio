@@ -26,7 +26,7 @@ function Certifications({darkMode}) {
         }`}>
             <div className="flex-1 min-w-0">
              <div className="flex items-center justify-between gap-2">
-                    <BadgeCheck className="w-4 h-4" />
+                    <BadgeCheck className="w-5 h-5" />
                     <div className="w-full flex items-center gap-3 truncate">
                         <h1 className="text-lg md:text-xl font-bold truncate">Certifications</h1>
                     </div>

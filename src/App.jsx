@@ -6,6 +6,7 @@ import About from './layout/About.jsx';
 import Experience from './layout/Experience.jsx';
 import TechStack from './layout/tech-stack.jsx';
 import Certifications from './layout/Certifications.jsx';
+import Projects from './layout/Projects.jsx';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -32,6 +33,8 @@ function App() {
             <TechStack darkMode={darkMode} />
             <Certifications darkMode={darkMode} />
           </section>
+
+          <Projects darkMode={darkMode} />
         </main>
       </div>
     </div>

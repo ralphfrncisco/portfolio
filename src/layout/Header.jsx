@@ -45,11 +45,13 @@ function Header({ darkMode, setDarkMode }) {
 
                         <button
                             onClick={() => setDarkMode(!darkMode)} 
-                            className={`p-2 rounded-full transition-colors cursor-pointer ${
-                                darkMode ? 'hover:bg-gray-400/20 text-white' : 'hover:bg-gray-400/30 text-gray-900'
+                            className={`p-2 rounded-lg transition-all duration-100 cursor-pointer border ${
+                                darkMode 
+                                    ? 'border-transparent hover:border-white/20 text-white'
+                                    : 'border-transparent hover:border-black/10 hover:bg-black/5 text-gray-900'
                             }`}
                         >
-                        {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+                            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
                         </button>
                     </div>
 
@@ -64,20 +66,16 @@ function Header({ darkMode, setDarkMode }) {
                 <p className="text-xs md:text-sm mt-2 flex items-center gap-1">
                     <MapPin size={15} /><span className="truncate font-normal">Valenzuela City, Philippines</span>
                 </p>
-
-                
-                
-
-                
+  
                 <div className="flex flex-wrap items-center gap-2 mt-3 md:mt-4">
                     <a href="https://github.com/ralphfrncisco" 
                         target="_blank" 
                         className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
                         text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
-                            darkMode ? 'shadow-gray-500/10' : 'shadow-black/20'
+                            darkMode ? 'shadow-gray-700/30' : 'shadow-black/20'
                         }`}>
-                            <Github size={16} /><span>GitHub</span>
+                            <Github size={18} /><span>GitHub</span>
                     </a>
 
                     <a href="https://www.linkedin.com/in/ralphfrancisco/" 
