@@ -11,7 +11,7 @@ function Experience({ darkMode }) {
 
   return (
     <section className = "p-2">
-      <div className={`border rounded-lg p-6 pb-[5.4rem] transition-colors duration-300 ${
+      <div className={`border rounded-lg p-6 md:pb-[5.4rem] transition-colors duration-300 ${
         darkMode ? 'bg-[#121212] border-[#222] text-white' : 'bg-white border-gray-200 text-gray-900 shadow-sm'
       }`}>
         <div className="flex items-center gap-2 mb-9">
