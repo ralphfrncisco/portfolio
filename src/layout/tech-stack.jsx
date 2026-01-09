@@ -2,19 +2,33 @@
 import React, {useState} from 'react';
 import { Laptop, X } from 'lucide-react';
 
+import pythonLogo from '../assets/images/languages/python.png';
+import javaLogo from '../assets/images/languages/java.png';
+import mysqlLogo from '../assets/images/languages/mysql1.png';
+import cSharpLogo from '../assets/images/languages/csharp.png';
+import cPlusPlusLogo from '../assets/images/languages/C++.png';
+import bootstrapLogo from '../assets/images/languages/bootstrap.png';
+import phpLogo from '../assets/images/languages/php.png';
+import tailwindLogo from '../assets/images/languages/tailwind.png';
+import reactLogo from '../assets/images/languages/React-icon.png';
+import xamppLogo from '../assets/images/tools/xamp.png';
+import photoshopLogo from '../assets/images/tools/photoshop.png';
+import geminiLogo from '../assets/images/tools/gemini.png';
+import copilotLogo from '../assets/images/tools/copilot.png';
+
 function TechStack({darkMode}) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const ImageLanguages = [
-        { name: "Python", path: "/assets/images/languages/python.png", size: "h-4 w-4", category: "Systems" },
-        { name: "Java", path: "/assets/images/languages/java.png", size: "h-5 w-5", category: "Systems" },
-        { name: "SQL", path: "/assets/images/languages/mysql1.png", size: "h-5 w-5", category: "Web" },
-        { name: "C#", path: "/assets/images/languages/csharp.png", size: "h-4 w-4", category: "Systems" },
-        { name: "C++", path: "/assets/images/languages/C++.png", size: "h-4 w-4", category: "Systems" },
-        { name: "BootStrap", path: "/assets/images/languages/bootstrap.png", size: "h-4 w-5", category: "Web" },
-        { name: "PHP", path: "/assets/images/languages/php.png", size: "h-4 w-7", category: "Web" },
-        { name: "Tailwind CSS", path: "/assets/images/languages/tailwind.png", size: "h-4 w-6", category: "Web" },
-        { name: "React", path: "/assets/images/languages/React-icon.png", size: "h-5 w-6", category: "Web" },
+        { name: "Python", path: pythonLogo, size: "h-4 w-4", category: "Systems" },
+        { name: "Java", path: javaLogo, size: "h-5 w-5", category: "Systems" },
+        { name: "SQL", path: mysqlLogo, size: "h-5 w-5", category: "Web" },
+        { name: "C#", path: cSharpLogo, size: "h-4 w-4", category: "Systems" },
+        { name: "C++", path: cPlusPlusLogo, size: "h-4 w-4", category: "Systems" },
+        { name: "BootStrap", path: bootstrapLogo, size: "h-4 w-5", category: "Web" },
+        { name: "PHP", path: phpLogo, size: "h-4 w-7", category: "Web" },
+        { name: "Tailwind CSS", path: tailwindLogo, size: "h-4 w-6", category: "Web" },
+        { name: "React", path: reactLogo, size: "h-5 w-6", category: "Web" },
     ];
 
     const IconLanguages = [
@@ -25,11 +39,11 @@ function TechStack({darkMode}) {
 
     const ImageTools = [
         { name: "Visual Studio Code", path: "https://img.icons8.com/color/50/visual-studio-code-2019.png", size: "h-5 w-5", category: "DevTools" },
-        { name: "XAMPP", path: "/assets/images/tools/xamp.png", size: "h-5 w-5", category: "DevTools" },
-        { name: "Photoshop", path: "/assets/images/tools/photoshop.png", size: "h-5 w-5", category: "Design" },
+        { name: "XAMPP", path: xamppLogo , size: "h-5 w-5", category: "DevTools" },
+        { name: "Photoshop", path: photoshopLogo, size: "h-5 w-5", category: "Design" },
         { name: "Open AI", path: `https://img.icons8.com/?size=100&id=fO5yVwARGUEB&format=png&color=${darkMode ? 'FFFFFF' : '000000'}`, size: "h-5 w-5", category: "AI" },
-        { name: "Gemini", path: "/assets/images/tools/gemini.png", size: "h-5 w-5", category: "AI" },
-        { name: "Copilot", path: "/assets/images/tools/copilot.png", size: "h-5 w-5", category: "AI" },
+        { name: "Gemini", path: geminiLogo, size: "h-5 w-5", category: "AI" },
+        { name: "Copilot", path: copilotLogo, size: "h-5 w-5", category: "AI" },
     ];
 
     const IconTools = [

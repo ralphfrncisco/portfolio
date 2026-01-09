@@ -1,6 +1,7 @@
 import React from 'react'
 import { Github, Linkedin, MapPin, Moon, Mail, Sun, Phone } from 'lucide-react'
 import profileImage from '../assets/images/ralph.png';
+import resumePDF from '../assets/files/resume.pdf';
 
 function Header({ darkMode, setDarkMode }) {
 
@@ -35,7 +36,7 @@ function Header({ darkMode, setDarkMode }) {
                     </div>
 
                     <div className="flex items-center gap-3">
-                        <a href = "/assets/files/resume.pdf" target="_blank" id = "download-cv" 
+                        <a href = {resumePDF} target="_blank" id = "download-cv" 
                         className={`hidden md:inline-flex h-7 md:h-8 items-center rounded-lg px-2.5 md:px-4 
                         text-[10px] md:text-xs font-medium whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
