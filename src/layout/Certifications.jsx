@@ -1,5 +1,7 @@
 import React from 'react';
 import { BadgeCheck } from 'lucide-react';
+import threatLandscapeImage from '../assets/images/threat-landscape.png';
+import cybersecurityImage from '../assets/images/cybersecurity.png';
 
 function Certifications({darkMode}) {
     const certs = [
@@ -7,13 +9,13 @@ function Certifications({darkMode}) {
         title: "Introduction to the Threat Landscape 2.0",
         issuer: "Fortinet",
         date: "Dec 10, 2023",
-        image: "/assets/images/threat-landscape.png"
+        image: threatLandscapeImage
     },
     {
         title: "Getting Started in Cybersecurity 2.0",
         issuer: "Fortinet",
         date: "Dec 10, 2023",
-        image: "/assets/images/cybersecurity.png"
+        image: cybersecurityImage
     }
     ];
 
