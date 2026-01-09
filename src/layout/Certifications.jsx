@@ -7,13 +7,13 @@ function Certifications({darkMode}) {
         title: "Introduction to the Threat Landscape 2.0",
         issuer: "Fortinet",
         date: "Dec 10, 2023",
-        image: "/src/assets/images/threat-landscape.png"
+        image: "/assets/images/threat-landscape.png"
     },
     {
         title: "Getting Started in Cybersecurity 2.0",
         issuer: "Fortinet",
         date: "Dec 10, 2023",
-        image: "/src/assets/images/cybersecurity.png"
+        image: "/assets/images/cybersecurity.png"
     }
     ];
 
