@@ -3,8 +3,7 @@ import {Building} from 'lucide-react'
 
 function Experience({ darkMode }) {
   const experiences = [
-    { title: "Quality Assurance", company: "GameOps Inc.", year: "2026", current: true },
-    { title: "Front-End Developer", company: "Freelance", year: "2026"},
+    { title: "Front-End Developer", company: "Freelance", year: "2026", current: true },
     { title: "BS Information Technology 🎓", company: "University of the East", year: "2025" },
     { title: "NOC Intern", company: "Tech2Go Network Innovation", year: "2025" },
     { title: "Hello World! 👋🏻", company: "Wrote my first line of code", year: "2021" },
