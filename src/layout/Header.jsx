@@ -72,7 +72,7 @@ function Header({ darkMode, setDarkMode }) {
                 <div className="flex flex-wrap items-center gap-2 mt-3 md:mt-4">
                     <a href="https://github.com/ralphfrncisco" 
                         target="_blank" 
-                        className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
+                        className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-4 
                         text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
                             darkMode ? 'shadow-gray-500/70 bg-black/5 text-white' : 'shadow-black/20 bg-black text-white'
@@ -88,7 +88,7 @@ function Header({ darkMode, setDarkMode }) {
 
                     <button 
                         onClick={handleEmailClick} 
-                        className={`inline-flex h-7 md:h-8 items-center rounded-lg border border-gray-500/20 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-sm hover:translate-y-[-1px] transition-all cursor-pointer ${
+                        className={`inline-flex h-8 items-center rounded-lg border border-gray-500/20 px-2.5 md:px-4 text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap shadow-sm hover:translate-y-[-1px] transition-all cursor-pointer ${
                         darkMode ? 'text-white' : 'text-black'
                         }`}
                     >
