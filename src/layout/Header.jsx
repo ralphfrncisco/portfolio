@@ -60,12 +60,12 @@ function Header({ darkMode, setDarkMode }) {
                 </div>
 
                 <div className="flex items-center justify-between md:mt-1">
-                    <p className="text-xs md:text-[11px] md:text-base font-normal md:font-medium">
+                    <p className="text-xs md:text-[15px] md:text-base font-normal md:font-medium">
                         Software Developer / Front-End Developer
                     </p>
                 </div>
                 
-                <p className="text-xs md:text-sm mt-2 flex items-center gap-1">
+                <p className="text-xs md:text-sm mt-3 flex items-center gap-1">
                     <MapPin size={15} /><span className="truncate font-normal">Valenzuela City, Philippines</span>
                 </p>
   
