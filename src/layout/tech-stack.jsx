@@ -61,7 +61,7 @@ function TechStack({darkMode}) {
                     </div>
                 </div>
 
-                <div className={`mt-10 text-xs md:text-sm font-light leading-relaxed ${
+                <div className={`mt-6 md:mt-10 text-xs md:text-sm font-light leading-relaxed ${
                     darkMode ? 'text-white/90' : 'text-gray-800 font-normal'
                 }`}>
                     <div className="flex flex-wrap gap-2">

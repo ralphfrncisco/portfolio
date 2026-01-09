@@ -16,8 +16,8 @@ function About({ darkMode}) {
                         <h1 className="text-lg md:text-xl font-bold truncate">About</h1>
                     </div>
                 </div>
-                <div className={`mt-4 space-y-4 text-xs md:text-sm font-light leading-relaxed ${
-                    darkMode ? 'text-white/80' : 'text-gray-800 font-normal'
+                <div className={`mt-4 space-y-4 text-xs md:text-sm font-extralight leading-relaxed ${
+                    darkMode ? 'text-white' : 'text-gray-900/90 font-light'
                 }`}>
                     <p>
                     I'm a software developer with a strong focus on building responsive and 

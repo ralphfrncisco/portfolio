@@ -13,7 +13,7 @@ function Header({ darkMode, setDarkMode }) {
 
     <section className="p-2">
 
-        <div className={`flex flex-col md:flex-row items-center gap-4 md:gap-6 border rounded-lg transition-colors duration-300 mt-4 mb-4 ${
+        <div className={`flex flex-col md:flex-row items-center gap-4 md:gap-6 border rounded-lg transition-colors duration-300 mt-4 mb-0 md:mb-4 ${
         darkMode 
           ? 'border-none text-white' 
           : 'border-none text-gray-900'
@@ -22,9 +22,9 @@ function Header({ darkMode, setDarkMode }) {
             <img src = "/src/assets/images/ralph.png" alt="Logo" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
 
             <div className="flex-1 min-w-0 ml-1 md:ml-0">
-                <div className="flex items-center justify-between gap-2 ">
+                <div className="flex items-center justify-between gap-5">
                     
-                    <div className="w-full flex items-center gap-3 truncate">
+                    <div className="w-full flex items-center gap-3">
                         <h1 className="text-lg md:text-2xl font-bold truncate">Ralph Angelo Francisco</h1>
                         
                         <span className="relative flex h-2 w-2">
@@ -35,10 +35,10 @@ function Header({ darkMode, setDarkMode }) {
 
                     <div className="flex items-center gap-3">
                         <a href = "/src/assets/files/resume.pdf" target="_blank" id = "download-cv" 
-                        className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
-                        text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap 
+                        className={`hidden md:inline-flex h-7 md:h-8 items-center rounded-lg px-2.5 md:px-4 
+                        text-[10px] md:text-xs font-medium whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
-                            darkMode ? 'shadow-gray-500/10' : 'shadow-black/20'
+                            darkMode ? 'shadow-gray-500/10 bg-white text-black' : 'shadow-black/20 bg-black text-white'
                         }`}>
                             <span id = "dl-text"> Download CV</span>
                         </a>
@@ -57,8 +57,8 @@ function Header({ darkMode, setDarkMode }) {
 
                 </div>
 
-                <div className="flex items-center justify-between mt-2 md:mt-1">
-                    <p className="text-[10px] md:text-base font-medium">
+                <div className="flex items-center justify-between md:mt-1">
+                    <p className="text-xs md:text-[11px] md:text-base font-normal md:font-medium">
                         Software Developer / Front-End Developer
                     </p>
                 </div>
@@ -71,9 +71,9 @@ function Header({ darkMode, setDarkMode }) {
                     <a href="https://github.com/ralphfrncisco" 
                         target="_blank" 
                         className={`inline-flex h-7 md:h-8 items-center rounded-lg bg-black px-2.5 md:px-4 
-                        text-[10px] md:text-xs font-medium text-white gap-1 md:gap-1.5 whitespace-nowrap 
+                        text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
-                            darkMode ? 'shadow-gray-700/30' : 'shadow-black/20'
+                            darkMode ? 'shadow-gray-500/70 bg-black/5 text-white' : 'shadow-black/20 bg-black text-white'
                         }`}>
                             <Github size={18} /><span>GitHub</span>
                     </a>
@@ -94,13 +94,24 @@ function Header({ darkMode, setDarkMode }) {
                         <span className="relative top-[0.5px]">Send Email</span>
                     </button>
                     
-                    <div className={`flex items-center gap-2 py-1 pl-1 md:pl-0 ${darkMode ? 'text-white/70' : 'text-gray-600'}`}>
+                    {/* <div className={`flex items-center gap-2 py-1 pl-1 md:pl-0 ${darkMode ? 'text-white/90' : 'text-gray-600'}`}>
                         <Phone size={14} className="shrink-0" /> 
                         <span className="font-light text-[10px] md:text-xs whitespace-nowrap">
                           (+63) 9611091804
                         </span>
-                    </div>
+                    </div> */}
                 </div>
+
+                {/* <div className = "w-full flex items-center justify-center md:hidden mt-4">
+                    <a href = "/src/assets/files/resume.pdf" target="_blank" id = "download-cv" 
+                        className={`inline-flex h-7 md:h-8 items-center rounded-lg px-2.5 md:px-4 
+                        text-[10px] md:text-xs font-medium whitespace-nowrap 
+                        transition-all hover:translate-y-[-1px] shadow-xs ${
+                            darkMode ? 'shadow-gray-500/10 bg-white text-black' : 'shadow-black/20 bg-black text-white'
+                        }`}>
+                        <span id = "dl-text"> Download CV</span>
+                    </a>
+                </div> */}
             </div>
         </div>
     </section>

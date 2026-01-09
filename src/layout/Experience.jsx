@@ -12,12 +12,12 @@ function Experience({ darkMode }) {
 
   return (
     <section className = "p-2">
-      <div className={`border rounded-lg p-6 transition-colors duration-300 ${
+      <div className={`border rounded-lg p-6 pb-[1.6rem] transition-colors duration-300 ${
         darkMode ? 'bg-[#121212] border-[#222] text-white' : 'bg-white border-gray-200 text-gray-900 shadow-sm'
       }`}>
-        <div className="flex items-center gap-2 mb-6">
-            <Building size={18} className = {`${darkMode ? 'text-white/80' : 'text-gray-800'}`}/>
-            <h2 className="text-xl font-bold tracking-tight">Experience</h2>
+        <div className="flex items-center gap-2 mb-9">
+          <Building size={18} className = {`${darkMode ? 'text-white/80' : 'text-gray-800'}`}/>
+          <h2 className="text-xl font-bold tracking-tight">Experience</h2>
         </div>
 
         <div className="relative space-y-6">

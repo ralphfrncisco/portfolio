@@ -16,3 +16,11 @@
 body {
   font-family: var(--font-geist);
 }
+
+.portfolio-gradient {
+  background-color: #000;
+  /* background-image: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #131212 100%); */
+  /* background-image: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0a0a0a 100%); */
+  /* background-attachment: fixed; */
+}
+
