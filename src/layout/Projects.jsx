@@ -1,6 +1,8 @@
-{/* --- CODE START (10 lines before change) --- */}
 import React from 'react'
 import { FolderCode } from 'lucide-react'
+import loanSystemImage from '../assets/images/projects/loan-system.jpg';
+import slaMonitoringImage from '../assets/images/projects/SLA-index.jpg';
+import philippinesImage from '../assets/images/projects/philippines.png';
 
 function Projects({darkMode}) {
 
@@ -8,7 +10,7 @@ function Projects({darkMode}) {
         { 
             name: "SmartLoan System", 
             description: "A web-based loan management system that digitizes loan inquiries, applications, and approvals, streamlining the loan process for cooperative officials and members.",
-            path: "/src/assets/images/projects/loan-system.jpg",
+            path: loanSystemImage,
             type: "Capstone Project",
             langs: ["PHP", "SQL"],
             link: "https://github.com/ralphfrncisco/SmartLoan"
@@ -16,7 +18,7 @@ function Projects({darkMode}) {
         { 
             name: "SysTrack SLA Monitoring", 
             description: "A specialized performance monitoring dashboard designed for manual entry and analysis of Service Level Agreement (SLA) metrics, calculating system uptime and reliability to ensure service compliance.",
-            path: "/src/assets/images/projects/SLA-index.jpg",
+            path: slaMonitoringImage,
             type: "Internship Project",
             langs: ["PHP", "SQL"],
             link: "#"
@@ -24,7 +26,7 @@ function Projects({darkMode}) {
         { 
             name: "The Philippines", 
             description: "A responsive web platform developed to master utility-first styling with Tailwind CSS and implement advanced CSS Grid and Flexbox layouts for seamless cross-device compatibility.",
-            path: "/src/assets/images/projects/philippines.png",
+            path: philippinesImage,
             type: "Personal Project",
             langs: ["HTML", "Tailwind CSS"],
             link: "https://the-philippines.vercel.app/"

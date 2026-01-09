@@ -19,7 +19,7 @@ function Header({ darkMode, setDarkMode }) {
           : 'border-none text-gray-900'
       }`}>
             
-            <img src = "/src/assets/images/ralph.png" alt="Logo" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
+            <img src = "../assets/images/ralph.png" alt="Logo" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
 
             <div className="flex-1 min-w-0 ml-1 md:ml-0">
                 <div className="flex items-center justify-between gap-5">
@@ -34,7 +34,7 @@ function Header({ darkMode, setDarkMode }) {
                     </div>
 
                     <div className="flex items-center gap-3">
-                        <a href = "/src/assets/files/resume.pdf" target="_blank" id = "download-cv" 
+                        <a href = "../assets/files/resume.pdf" target="_blank" id = "download-cv" 
                         className={`hidden md:inline-flex h-7 md:h-8 items-center rounded-lg px-2.5 md:px-4 
                         text-[10px] md:text-xs font-medium whitespace-nowrap 
                         transition-all hover:translate-y-[-1px] shadow-xs ${
