@@ -31,7 +31,7 @@ function About({ darkMode}) {
                     </p>
 
                     <p>
-                    Lately, I'm expanding my skills by learning modern web development like <span className = "font-bold">React</span>, <span className = "font-bold">Tailwind CSS</span>,
+                    Lately, I'm expanding my skills by learning modern web development using <span className = "font-bold">React</span>, <span className = "font-bold">Tailwind CSS</span>,
                     and exploring how emerging technologies such as automation and AI-assisted 
                     development.
                     </p>
