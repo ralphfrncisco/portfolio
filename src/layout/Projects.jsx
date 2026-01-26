@@ -3,6 +3,7 @@ import { FolderCode } from 'lucide-react'
 import loanSystemImage from '../assets/images/projects/loan-system.jpg';
 import slaMonitoringImage from '../assets/images/projects/SLA-index.jpg';
 import philippinesImage from '../assets/images/projects/philippines.png';
+import IRMSimage from '../assets/images/projects/IRMS.png';
 
 function Projects({darkMode}) {
 
@@ -30,6 +31,14 @@ function Projects({darkMode}) {
             type: "Personal Project",
             langs: ["HTML", "Tailwind CSS"],
             link: "https://the-philippines.vercel.app/"
+        },
+        { 
+            name: "IRMS", 
+            description: "Developing a simple CRUD system using ReactJS and PostGreSQL to enhance the management of inventory and sales transactions for a small business.",
+            path: IRMSimage,
+            type: "Freelance Project",
+            langs: ["ReactJS", "PostGreSQL"],
+            link: "https://github.com/ralphfrncisco/IRMS"
         },
     ];
 
