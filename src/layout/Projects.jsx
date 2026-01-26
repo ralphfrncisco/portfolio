@@ -34,7 +34,7 @@ function Projects({darkMode}) {
         },
         { 
             name: "IRMS", 
-            description: "Developing a simple CRUD system using ReactJS and PostGreSQL to enhance the management of inventory and sales transactions for a small business.",
+            description: "Inventory-Record Management System (IRMS) is a simple CRUD system using ReactJS and PostGreSQL to enhance the management of inventory and sales transactions for a small business. <i>(Work in Progress)</i>",
             path: IRMSimage,
             type: "Freelance Project",
             langs: ["ReactJS", "PostGreSQL"],
