@@ -21,7 +21,7 @@ function About() {
                         I'm a software developer with a strong focus on building responsive and
                         user-friendly web applications. I work mainly with <span className="font-bold">HTML</span>, <span className="font-bold">CSS</span>, <span className="font-bold">JavaScript</span>,
                         <span className="font-bold"> PHP</span>, and <span className="font-bold">MySQL</span>. I enjoy turning ideas into working systems that solve
-                        real problems.
+                        real problem.
                     </p>
                     <p>
                         I've built a web-based loan management system that eliminates redundant paper-based loan inquiries by enabling digital loan balance monitoring and online loan application and approval. The system reduces manual transactions, saves time, and streamlines the loan process for both cooperative officials and members through a more efficient digital workflow.
