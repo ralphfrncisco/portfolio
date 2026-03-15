@@ -63,9 +63,8 @@ function Header({ darkMode, setDarkMode }) {
                             target="_blank"
                             className="inline-flex h-7 md:h-8 items-center rounded-lg px-4
                             text-[10px] md:text-xs font-medium gap-1 md:gap-1.5 whitespace-nowrap
-                            transition-all hover:translate-y-[-1px] shadow-xs
-                            shadow-black/20 bg-black text-white
-                            dark:shadow-gray-500/70 dark:bg-white/5 dark:text-white dark:border dark:border-white/10">
+                            transition-all hover:translate-y-[-1px] bg-black text-white
+                            dark:shadow-gray-500/70 dark:bg-white/2 dark:text-white border dark:border-white/5">
                             <Github size={18} /><span>GitHub</span>
                         </a>
 
