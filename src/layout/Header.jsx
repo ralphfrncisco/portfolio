@@ -50,7 +50,7 @@ function Header({ darkMode, setDarkMode }) {
 
                     <div className="flex items-center justify-between md:mt-1">
                         <p className="text-xs md:text-[15px] md:text-base font-normal md:font-medium">
-                            Software Developer / Front-End Developer
+                            Full Stack Web Developer
                         </p>
                     </div>
 
