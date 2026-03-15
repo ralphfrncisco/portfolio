@@ -1,6 +1,6 @@
-
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
  
@@ -23,4 +23,9 @@ body {
   /* background-image: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0a0a0a 100%); */
   /* background-attachment: fixed; */
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 
