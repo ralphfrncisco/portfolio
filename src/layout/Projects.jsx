@@ -24,8 +24,7 @@ function Projects() {
                 "Online loan inquiry and application submission",
                 "Admin dashboard for loan review and approval workflows",
                 "Member account management and loan history tracking",
-                "Automated status notifications for applicants",
-                "Secure authentication for officials and members",
+                "Automated status notifications for applicants"
             ],
             link: "https://github.com/ralphfrncisco/SmartLoan",
             github: "https://github.com/ralphfrncisco/SmartLoan",
@@ -81,8 +80,7 @@ function Projects() {
                 "Full CRUD for inventory items and categories",
                 "Sales transaction recording and history",
                 "Stock level tracking with low-inventory alerts",
-                "PostgreSQL relational data model",
-                "Work in progress — reporting dashboard coming soon",
+                "PostgreSQL relational data model"
             ],
             link: "https://github.com/ralphfrncisco/IRMS",
             github: "https://github.com/ralphfrncisco/IRMS",
