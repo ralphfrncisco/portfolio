@@ -16,7 +16,7 @@ function Header({ darkMode, setDarkMode }) {
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 border rounded-lg transition-colors duration-300 mt-4 mb-0 md:mb-4
                 border-none text-gray-900 dark:text-white">
 
-                <img src={profileImage} alt="Logo" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
+                <img src={profileImage} alt="Profile Pic" className="h-40 w-40 rounded-lg object-cover flex-shrink-0" />
 
                 <div className="flex-1 min-w-0 ml-1 md:ml-0">
                     <div className="flex items-center justify-between gap-5">
