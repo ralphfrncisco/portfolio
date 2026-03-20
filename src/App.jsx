@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 
 import Header from './layout/Header.jsx';
 import About from './layout/About.jsx';
@@ -75,6 +76,7 @@ function App() {
           <p>© 2024 Ralph Angelo Francisco. All rights reserved.</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
